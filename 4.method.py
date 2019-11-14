@@ -17,14 +17,14 @@ class Hero:
     def healthScore(self):
         return self.health
 
-spiderman   =   Hero("Spiderman", 75, 50, 80)
-superman    =   Hero("Superman", 80, 75, 85)
-hulk        =   Hero("  Hulk", 75, 85, 80)
+hero1       =   Hero("Spiderman", 75, 50, 80)
+hero2       =   Hero("Superman", 80, 75, 85)
+hero3       =   Hero("  Hulk", 75, 85, 80)
 
-print(spiderman.name)
+print(hero1.name)
 
-superman.whoIs()
+hero2.whoIs()
 
-hulk.healthUp(10)
+hero3.healthUp(10)
 
-print(spiderman.name , 'health =' ,hulk.healthScore())
+print(hero2.name , 'health =' ,hero2.healthScore())
