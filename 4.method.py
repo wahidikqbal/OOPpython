@@ -27,4 +27,4 @@ superman.whoIs()
 
 hulk.healthUp(10)
 
-print(hulk.healthScore())
+print(spiderman.name , 'health =' ,hulk.healthScore())
