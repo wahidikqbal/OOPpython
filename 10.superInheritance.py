@@ -16,9 +16,9 @@ class reskrim(polisi):
     def __init__(self, name):
         super().__init__(name, 7, "Kriminal")
 
-malang12 = sitipol("Telematika")
-malang4  = sumda("Bag Sumda")
-malang7  = reskrim("Sat Resrim")
+malang12 = sitipol("Telematika,")
+malang4  = sumda("Bag Sumda,")
+malang7  = reskrim("Sat Resrim,")
 
 
 print(malang12.name, "kode", malang12.callSign, "menangani bidang", malang12.bidang)
