@@ -1,6 +1,7 @@
 class Hero:
 
     __jumlahHero = 0
+    __jumlahSerang = 0
 
     def __init__(self, name):
         self.healthPool = [0, 100, 200, 300, 400, 500]
@@ -19,6 +20,13 @@ class Hero:
             self.__health,
         )
         )
+    
+    def serang(self, object):
+        print(self.__name, "menyerang", object.__name)
+        object.diserang(self)
+
+    def diserang(self, object):
+        print(self.__name, "diserang", object.__name)
 
     @property
     def healthPool(self):
@@ -74,6 +82,9 @@ class HeroStrength(Hero):
         self.armorPool = [0, 20, 30, 40, 50, 60]
         self.powerPool = [0, 25, 35, 45, 55, 65]
         self.levelUp = 1
+    
+    def serang(self, object):
+        super().serang(object)
 
 
 class HeroIntelligent(Hero):
@@ -84,3 +95,6 @@ class HeroIntelligent(Hero):
         self.armorPool = [0, 10, 20, 30, 40, 50]
         self.powerPool = [0, 20, 30, 40, 50, 60]
         self.levelUp = 1
+    
+    def serang(self, object):
+        super().serang(object)
