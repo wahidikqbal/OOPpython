@@ -11,7 +11,9 @@ class Hero:
     def serang (self, objekSerang):
         print(self.name , "menyerang" , objekSerang.name )
         objekSerang.diserang(self, self.power)
-
+        """             |
+            -------------
+            |               """        
     def diserang (self, objectPenyerang, powerPenyerang):
         print(self.name, "diserang", objectPenyerang.name)
         self.health -= powerPenyerang-self.armor
@@ -22,4 +24,4 @@ hero2       =   Hero("Superman", 80, 75, 85)
 hero3       =   Hero("Hulk", 75, 85, 80)   
 
 hero1.serang(hero2)
-hero3.serang(hero1)
+#hero3.serang(hero1)

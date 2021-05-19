@@ -27,4 +27,4 @@ hero2.whoIs()
 
 hero3.healthUp(10)
 
-print(hero2.name , 'health =' ,hero2.healthScore())
+print(hero3.name , 'health =' ,hero3.healthScore())
