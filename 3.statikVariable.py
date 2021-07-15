@@ -1,6 +1,7 @@
 class kelas:
     #statik Variable
     jumlahSiswa = 0
+    
     def __init__(self, inputNoAbsen, inputNama, inputHobby):
         self.nama  = inputNama
         self.hobby = inputHobby

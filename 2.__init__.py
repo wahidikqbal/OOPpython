@@ -9,4 +9,6 @@ siswa = siswa("Homelander","ngeGame")
 print(siswa.nama, "hobby nya adalah", siswa.hobby)
 
 #-------> dictionary pada siswa
+
+
 print(siswa.__dict__)
