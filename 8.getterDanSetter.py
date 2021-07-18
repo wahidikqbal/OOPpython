@@ -38,6 +38,6 @@ hero2 = Hero("Superman", 80, 75, 85)
 hero3 = Hero("Hulk", 75, 85, 80)
 
 hero1.info
-print("armor sekarang",hero1.armor)
-hero1.armor = 75
-print("armor naik!!!",hero1.armor)
+#print("armor sekarang",hero1.armor)
+#hero1.armor = 75
+#print("armor naik!!!",hero1.armor)
